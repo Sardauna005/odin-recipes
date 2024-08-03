@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Times New Roman", Times, serif;
   background-color: palegoldenrod;
@@ -5,12 +11,32 @@ body {
   text-transform: capitalize;
 }
 
-.heading.head {
+.head {
   text-align: center;
+}
+
+.header {
+  display: flex;
+}
+
+.description {
+  padding-left: 15px;
 }
 
 img.images {
   width: 370px;
   height: auto;
-  text-align: left;
+  margin-right: auto;
+}
+
+.details {
+  background-color: rgb(230, 228, 208);
+  margin: 5px;
+  padding: 70px;
+}
+
+.container {
+  background-color: rgb(174, 174, 204);
+  display: flex;
+  margin-top: 10px;
 }
