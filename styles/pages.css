@@ -1,3 +1,7 @@
+/* this is conventional standard to make everything the  
+size you would like so do this before 
+any project at the beginning of css files */
+
 *,
 *::before,
 *::after {
@@ -11,6 +15,13 @@ body {
   background-color: palegoldenrod;
   padding: 5px;
   text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 5px;
 }
 
 .head {
