@@ -54,3 +54,15 @@ img.images {
   margin-top: 10px;
   justify-content: center;
 }
+
+.return {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.home {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
