@@ -20,7 +20,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+li {
   margin-bottom: 5px;
 }
 
@@ -43,13 +44,13 @@ img.images {
 }
 
 .details {
-  background-color: rgb(230, 228, 208);
+  background-color: rgb(241, 235, 163);
   margin: 5px;
-  padding: 70px;
+  padding: 50px;
 }
 
 .container {
-  background-color: rgb(174, 174, 204);
   display: flex;
   margin-top: 10px;
+  justify-content: center;
 }

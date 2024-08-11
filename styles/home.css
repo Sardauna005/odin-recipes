@@ -22,3 +22,9 @@ ul li {
   color: brown;
   text-decoration: none;
 }
+
+.items {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
